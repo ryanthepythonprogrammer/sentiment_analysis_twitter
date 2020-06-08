@@ -10,10 +10,10 @@ import os
 import sys
 from grapher import graphing as g
 
-ckey="Iu6nqDn7rcvtRPlBJhseWV04Q"
-csecret="fX79cu02DTLpvgMP0uCfsdYzYy3ISB1OYTIaWpurLEW4dxbd3U"
-atoken="1034409710177406976-SL8NUlZtTnCS1TuLK5BB8guvtWYlKL"
-asecret="alkb4jBM4JJFzKFLGeuHMM9eFqAHgGXLLN84HoIw1vZTJ"
+ckey=""#enter your own twitter api ckey, csecret, atoken, and asecret here
+csecret=""
+atoken=""
+asecret=""
 
 authorization = OAuthHandler(ckey, csecret)
 authorization.set_access_token(atoken, asecret)
